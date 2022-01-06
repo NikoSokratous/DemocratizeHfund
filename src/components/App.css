@@ -1,0 +1,28 @@
+.container1 {
+	background: whitesmoke;
+	float: left;
+	height: 200vh;
+	width: 20vw;
+	display: grid;
+	overflow: hidden;
+}
+.container2 {
+	background: white;
+	float: all;
+	height: 100vh;
+	width: 60vw;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.container3 {
+	background: whitesmoke;
+	float: right;
+	height: 200vh;
+	width: 18vw;
+	vertical-align: top;
+	overflow: hidden;
+
+
+}
