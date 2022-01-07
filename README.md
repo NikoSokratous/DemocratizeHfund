@@ -5,20 +5,20 @@ The project used as starter kit the code of https://github.com/dappuniversity/so
 
 First install dependencies.
 
-   npm install
+    npm install
   
 Then make sure you have truffle running get into the folder
 
-   cd DemocratizeHfund
+    cd DemocratizeHfund
   
 Compile and migrate the smart contracts  to the blockchain 
 
-   truffle compile 
-   truffle migrate --reset
+    truffle compile 
+    truffle migrate --reset
   
 Make sure you have metamask install and switch  to your private network and open development server 
 
-   npm run start
+    npm run start
 
 
 <b>UI</b>
