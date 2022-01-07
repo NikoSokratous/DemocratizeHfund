@@ -9,7 +9,6 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-  <p>&nbsp;</p>
   
 <i>User can create votes for investment proposul to the community by a drop down menu.<i>
   
