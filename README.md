@@ -32,7 +32,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
  
  <i>Deposit and withdraw functions exist in the upper right par of the page in a drop down form</i>
  
- <img src="https://user-images.githubusercontent.com/97196020/148589931-87c4f52f-65de-49ff-be4b-2e8dc549930b.png" width="600" >
+ <img src="https://user-images.githubusercontent.com/97196020/148589931-87c4f52f-65de-49ff-be4b-2e8dc549930b.png" width="100" >
 
  <i>Since the value of the fund will flactuate accorting to its investment every user can withdraw as much as his deposit was + or - a percentage that equals the persentages if profit of loss that the fund made since his deposit</i>
   
@@ -56,9 +56,9 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 
     isDeposited[msg.sender] = true; //activate deposit status
     emit Deposit(msg.sender, msg.value, block.timestamp);
-  }
+   }
   
-<p>&nbsp;</p>
+
    
      function withdraw(uint amount) payable public {
     require(isDeposited[msg.sender]==true, 'Error, no previous deposit');
@@ -102,7 +102,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     totalbalance2 = 0; 
 
     emit Withdraw(msg.sender, userBalance, depositTime, interest);
-  }
+   }
 
 
  
