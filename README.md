@@ -13,6 +13,14 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 <i>User can create votes for investment proposul to the community by a drop down menu.<i>
   
   <img src="https://user-images.githubusercontent.com/97196020/148574856-004e23fe-3710-416e-b874-9937b2e3fd90.png" width="600" >
+  
+  To be able to create a vote or vote on an investment proposul, first you have to had deposit money in the fund. 
+  ![image](https://user-images.githubusercontent.com/97196020/148578593-747ff4bc-fb1b-46e4-9f8a-32750efed8da.png)
+  Also every user can only vote one and his vote is worth as much as the money that it has in the fund. 
+  ![image](https://user-images.githubusercontent.com/97196020/148578781-48738b40-2b6e-448c-a3f1-c9af0e4a297e.png)
+![image](https://user-images.githubusercontent.com/97196020/148578872-322eb7de-5e17-4a13-8c25-165311bcf66b.png)
+
+
 
  
   
