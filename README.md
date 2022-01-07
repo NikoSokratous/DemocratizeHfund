@@ -19,6 +19,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
  
   Also every user can only vote one and his vote is worth as much as the money that it has in the fund. 
  <img src="https://user-images.githubusercontent.com/97196020/148578781-48738b40-2b6e-448c-a3f1-c9af0e4a297e.png" width="600" > 
+  
  <img src="https://user-images.githubusercontent.com/97196020/148578872-322eb7de-5e17-4a13-8c25-165311bcf66b.png" width="400" > 
 
 
