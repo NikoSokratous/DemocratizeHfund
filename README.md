@@ -30,7 +30,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     
  <img src="https://user-images.githubusercontent.com/97196020/148590072-39da653e-fa48-4cd4-af80-ba4aa9b89d34.png" width="600" >
  
- <i>Deposit and withdraw functions exist in the upper right par of the page in a drop down form</i>
+ <i>Deposit and withdraw functions exist in the upper right part of the page in a drop down form. In this space there also informations about the user, his walet addreas and the value of his money invested in the fund + profit and (loss)</i>
  
  <img src="https://user-images.githubusercontent.com/97196020/148589931-87c4f52f-65de-49ff-be4b-2e8dc549930b.png" width="100" >
 
@@ -56,7 +56,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 
     isDeposited[msg.sender] = true; //activate deposit status
     emit Deposit(msg.sender, msg.value, block.timestamp);
-   }
+     }
   
 
    
@@ -102,7 +102,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     totalbalance2 = 0; 
 
     emit Withdraw(msg.sender, userBalance, depositTime, interest);
-   }
+     }
 
 
  
