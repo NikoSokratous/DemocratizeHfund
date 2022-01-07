@@ -15,17 +15,18 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     
 <i>Every proposul have a 24 hour time limit. If 65% of the comunity vote "yes" then the proposul pass and the trade executed automaticly. In the time of the voting withdraws from the fund freeze and automaticly open when the voting ends.</i>
         
-        votingStart[postCount] = votingStart[postCount] + block.timestamp;
-  
-
+   votingStart[postCount] = votingStart[postCount] + block.timestamp;
   
  <i> To be able to create a vote or vote on an investment proposul, first you have to had deposit money in the fund. </i>
- <img src="https://user-images.githubusercontent.com/97196020/148578593-747ff4bc-fb1b-46e4-9f8a-32750efed8da.png" width="600" > 
+
+    require(etherBalanceOf[msg.sender]>0, 'Error, no previous deposit');
  
   <i>Also every user can only vote ones and his vote is worth as much as the money that it has in the fund. </i>
- <img src="https://user-images.githubusercontent.com/97196020/148578781-48738b40-2b6e-448c-a3f1-c9af0e4a297e.png" width="400" > 
+ 
+    require(etherBalanceOf[msg.sender]>0, 'Error, no previous deposit');
+    require(pinakas[msg.sender][_id]==false, 'Error, user already vote');
   
- <img src="https://user-images.githubusercontent.com/97196020/148578872-322eb7de-5e17-4a13-8c25-165311bcf66b.png" width="400" > 
+    _post.upvotes = _post.upvotes + userBalance;
 
   
 
