@@ -3,6 +3,24 @@ This is a project about a hedge fund that used blockchain to provide trust and a
 
 The project used as starter kit the code of https://github.com/dappuniversity/social-network.
 
+First install dependencies.
+
+  npm install
+  
+Then make sure you have truffle running get into the folder
+
+  cd DemocratizeHfund
+  
+Compile and migrate the smart contracts  to the blockchain 
+
+  truffle compile 
+  truffle migrate --reset
+  
+Make sure you have metamask install and switch  to your private network and open development server 
+
+  npm run start
+
+
 <b>UI</b>
 
 <img src="https://user-images.githubusercontent.com/97196020/148573484-7a5a6978-c0ff-44c8-b2bf-9dab2edd48be.png" width="600" >
