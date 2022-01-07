@@ -8,6 +8,8 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 <img src="https://user-images.githubusercontent.com/97196020/148573484-7a5a6978-c0ff-44c8-b2bf-9dab2edd48be.png" width="600" >
 
   <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
   
 <i>User can create votes for investment proposul to the community by a drop down menu.<i>
   
