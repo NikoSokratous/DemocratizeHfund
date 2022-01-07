@@ -3,11 +3,11 @@ This is a project about a hedge fund that used blockchain to provide trust and a
 
 The project used as started kit the code of https://github.com/dappuniversity/social-network.
 
-UI
+<b>UI<b>
 
 <img src="https://user-images.githubusercontent.com/97196020/148573484-7a5a6978-c0ff-44c8-b2bf-9dab2edd48be.png" width="600" >
 
-<u>User can create votes for investment proposul to the community by a drop down menu.<u>
+<i>User can create votes for investment proposul to the community by a drop down menu.<i>
   
 
 
