@@ -14,6 +14,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 <img src="https://user-images.githubusercontent.com/97196020/148574856-004e23fe-3710-416e-b874-9937b2e3fd90.png" width="600" >
     
 <i>Every proposul have a 24 hour time limit. If 65% of the comunity vote "yes" then the proposul pass and the trade executed automaticly. In the time of the voting withdraws from the fund freeze and automaticly open when the voting ends.</i>
+        
         votingStart[postCount] = votingStart[postCount] + block.timestamp;
   
 
