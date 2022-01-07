@@ -32,7 +32,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
  
  <i>Deposit and withdraw functions exist in the upper right part of the page in a drop down form. In this space there also informations about the user, his walet addreas and the value of his money invested in the fund + profit and (loss)</i>
  
- <img src="https://user-images.githubusercontent.com/97196020/148589931-87c4f52f-65de-49ff-be4b-2e8dc549930b.png" width="100" >
+ <img src="https://user-images.githubusercontent.com/97196020/148589931-87c4f52f-65de-49ff-be4b-2e8dc549930b.png" width="200" >
 
  <i>Since the value of the fund will flactuate accorting to its investment every user can withdraw as much as his deposit was + or - a percentage that equals the persentages if profit of loss that the fund made since his deposit</i>
   
