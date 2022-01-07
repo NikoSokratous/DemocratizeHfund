@@ -15,7 +15,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     
 <i>Every proposul have a 24 hour time limit. If 65% of the comunity vote "yes" then the proposul pass and the trade executed automaticly. In the time of the voting withdraws from the fund freeze and automaticly open when the voting ends.</i>
         
-   votingStart[postCount] = votingStart[postCount] + block.timestamp;
+    votingStart[postCount] = votingStart[postCount] + block.timestamp;
   
  <i> To be able to create a vote or vote on an investment proposul, first you have to had deposit money in the fund. </i>
 
