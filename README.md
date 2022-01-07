@@ -127,6 +127,9 @@ Make sure you have metamask install and switch  to your private network and open
  
   
  <img src="https://user-images.githubusercontent.com/97196020/148599766-e6567340-9810-4bc2-a63a-269a9524014f.png" width="200" >
+ 
+ 
+ <b>Note</b> <i> This project is not finalised yet, I'm still working on the automating trading function. When complete it will be deployed at a test network </i>
 
 
 
