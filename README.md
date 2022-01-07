@@ -58,7 +58,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     emit Deposit(msg.sender, msg.value, block.timestamp);
      }
   
-
+  <p>&nbsp;</p>
    
      function withdraw(uint amount) payable public {
     require(isDeposited[msg.sender]==true, 'Error, no previous deposit');
