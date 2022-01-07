@@ -1,7 +1,7 @@
 # DemocratizeHfund
-This is a project about a hedge fund that used blockchain to provide trust and alow its members to take part and develop an investment stratagy that every can vote on.
+This is a project about a hedge fund that used blockchain to provide trust and allow its members to take part and develop an investment strategy that every can vote on.
 
-The project used as started kit the code of https://github.com/dappuniversity/social-network.
+The project used as starter kit the code of https://github.com/dappuniversity/social-network.
 
 <b>UI</b>
 
@@ -9,19 +9,19 @@ The project used as started kit the code of https://github.com/dappuniversity/so
 
   <p>&nbsp;</p>
   
-<i>A User can create votes for investment proposul to the community by a drop down menu. To create a proposul you have to write the reasoning behind that desisgion, know the address of the Token you want the comunity to invest in and also indikated the amount. Those information will be later use to make the trade automaticly if the proposul pass. </i>
+<i>A User can create votes for investment proposal to the community by a drop-down menu. To create a proposal, you must write the reasoning behind that decision, know the address of the Token you want the community to invest in and indicated the amount. That information will be later used to make the trade automatically if the proposal pass. </i>
     
 <img src="https://user-images.githubusercontent.com/97196020/148574856-004e23fe-3710-416e-b874-9937b2e3fd90.png" width="600" >
     
-<i>Every proposul have a 24 hour time limit. If 65% of the comunity vote "yes" then the proposul pass and the trade executed automaticly. In the time of the voting withdraws from the fund freeze and automaticly open when the voting ends.</i>
+<i>Every proposal has a 24-hour time limit. If 65% of the community vote "yes" then the proposal pass, and the trade executed automatically. In the time of the voting withdraws from the fund freeze and automatically open when the voting ends.  </i>
         
     votingStart[postCount] = votingStart[postCount] + block.timestamp;
   
- <i> To be able to create a vote or vote on an investment proposul, first you have to had deposit money in the fund. </i>
+ <i> To be able to create a vote or vote on an investment proposal, first you must have deposit money in the fund. </i>
 
     require(etherBalanceOf[msg.sender]>0, 'Error, no previous deposit');
  
-  <i>Also every user can only vote ones and his vote is worth as much as the money that it has in the fund. </i>
+  <i>Also, every user can only vote ones and his vote is worth as much as the money that it has in the fund. </i>
  
     require(etherBalanceOf[msg.sender]>0, 'Error, no previous deposit');
     require(pinakas[msg.sender][_id]==false, 'Error, user already vote');
@@ -30,11 +30,11 @@ The project used as started kit the code of https://github.com/dappuniversity/so
     
  <img src="https://user-images.githubusercontent.com/97196020/148590072-39da653e-fa48-4cd4-af80-ba4aa9b89d34.png" width="600" >
  
- <i>Deposit and withdraw functions exist in the upper right part of the page in a drop down form. In this space there also informations about the user, his walet addreas and the value of his money invested in the fund + profit and (loss)</i>
+ <i>Deposit and withdraw functions exist in the upper right part of the page in a drop-down form. In this space there also information’s about the user, his wallet address and the value of his money invested in the fund + profit and (loss) </i>
  
  <img src="https://user-images.githubusercontent.com/97196020/148589931-87c4f52f-65de-49ff-be4b-2e8dc549930b.png" width="200" >
 
- <i>Since the value of the fund will flactuate accorting to its investment every user can withdraw as much as his deposit was + or - a percentage that equals the persentages if profit of loss that the fund made since his deposit</i>
+ <i>Since the value of the fund will fluctuate according to its investment every user can withdraw as much as his deposit was + or - a percentage that equals the percentage if profit of loss that the fund made since his deposit.</i>
   
     function deposit() payable public {
 
@@ -105,7 +105,7 @@ The project used as started kit the code of https://github.com/dappuniversity/so
      }
      
      
- <i> At the left side of the side a table of that show liquididty and price of tokens in uniswap. To collect this data and make it up to date I used Graph abis and every coin individual addreess. </i>
+ <i> At the left side of the side a table of that show liquidity and price of tokens in uniswap. To collect this data and make it up to date I used Graph apis and every coin individual address. </i>
  
   
  <img src="https://user-images.githubusercontent.com/97196020/148599766-e6567340-9810-4bc2-a63a-269a9524014f.png" width="200" >
